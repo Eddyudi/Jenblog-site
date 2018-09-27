@@ -1,0 +1,268 @@
+body{
+	background-color: #D8D8D8;
+
+}
+div {
+	margin-top:5px;
+}
+p a{
+	text-decoration: none;
+}
+
+.nav{
+	width: 100%;
+	height: 65px;
+	padding-top:0px; 
+	
+
+}
+.cont{
+	float: left;
+	padding: 2px auto;
+
+}
+.side{
+	float: right;
+	border: solid 1px;
+
+}
+.header{
+
+	width: 100%;
+	height: 400px;
+}
+.logo{
+	color: #f2f2f2;
+}
+.logo h1{
+	font-size: 50px;
+}
+.logo p{
+	font-size: 25px;
+}
+
+.category-nav{
+	width: 100%;
+	height: 60px;
+	background-color:#8c8c8c;
+	margin-bottom: 0px;
+}
+.social_links{
+	float: left;
+	margin: 13px 0 10px 5px;
+	border: solid 1px;
+	height: 40px;
+	width: 700px;
+}
+ul.social-network {
+	font-size: 16px;
+	list-style:none;
+	padding:10px;
+	transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+ul.social-network li {
+	display:inline;
+	margin: 0 5px;	
+}
+ul.social-network li a {	
+	color:#d0d0d0;
+	
+}
+.social-network li:hover .fa-twitter {
+  color: #00abf0;
+}
+.social-network li:hover .fa-facebook {
+  color: #39579a;
+}
+.social-network li:hover .fa-google-plus {
+  color: #eb8984;
+}
+.social-network li:hover .fa-pinterest {
+  color: #c9171e;
+  
+}
+.social-network li:hover .fa-linkedin {
+  color: #0077b5;
+  
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+.info {
+  float: left;
+  margin-top: -45px;
+   margin-left: 110px;
+}
+
+.info li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.info i {
+  color: #d0d0d0;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.info a {
+  color: #d0d0d0;
+  font-size: 12px; 
+}
+
+.info a:hover {
+  color: #ED502E;
+}
+
+.info p {
+  color: #d0d0d0;
+  font-size: 12px;
+  margin: 0;
+}
+.nav-menu{
+	float: right;
+	margin: 16px 40px 0;
+	height: 32px;
+	color:#fff; 
+}
+.nav-menu ul li a{
+	border-right: solid 1px;
+	border-color: #ccc;
+}
+.nav-menu ul li button{
+	background-color:#8c8c8c;
+}
+.nav-menu ul li button:hover {
+	background-color:#bfbfbf;
+	box-shadow: 0 0 3px 2px #cccccc;
+}
+.user_show{
+	float: right;
+	border: solid 1px;
+	border-color: #737373;
+	margin: 5px 5px 0;
+	padding: 22px 2px 2px 5px;
+	height: 50px;
+	width: 150px;
+	background-color: #8c8c8c;
+	color: #e6e6e6;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+
+}
+.comment_form{
+
+	width: 99.5%;
+	height: 500px;
+	margin-bottom: 15px;
+	background-color: #f2f2f2;
+	border: solid 1px;
+	border-color: #cccccc;
+	border-radius: 4px;
+	box-shadow:0 8px 16px 0 #8c8c8c;
+}
+.comment_form h4{
+	padding-left: 10px;
+}
+.comment_form textarea{
+	height: 200px;
+}
+.post-content{
+	color:#4d4d4d;
+	font-size: 13px;
+	float: left;
+	border: solid 1px;
+	
+}
+.post-text{
+	padding: 20px auto;
+	border: solid 1px;
+}
+footer{
+	height: 100px;
+	color: #fff;
+	background-color:#333333;
+	margin-top: 10px;
+}
+.signup{
+	padding-left:240px;
+	border: solid 1px;
+	border-color:#bfbfbf;
+	
+}
+.signup-form-container{
+	padding: 10px 5px 10px 7px;
+	background-color: #f2f2f2;
+}
+.signup-form{
+	width: 99.5%;
+	margin-bottom: 15px;
+	padding-bottom:15px;
+	background-color: #f2f2f2;
+	border: solid 1px;
+	border-color: #cccccc;
+	border-radius: 4px;
+	box-shadow:0 8px 16px 0 #8c8c8c;
+}
+.signup-form input{
+	line-height: 15px;
+}
+.signup-wrapper{
+	width:900px;
+}
+.signup-form textarea{
+	height: 200px;
+}
+.signup-form p{
+	padding-left:20px;
+}
+.signup-form marquee{
+	line-height: 20px;
+	background-color: cadetblue;
+	padding-top: 5px;
+	color: #e6e6e6;
+}
+.form-button{
+	border: #8c8c8c solid 1px;
+}
+.login{
+	padding-left:460px;
+	border: solid 1px;
+	border-color:#bfbfbf;
+	
+}
+.login-form{
+	width: 50%;
+	margin-bottom: 15px;
+	padding-bottom:15px;
+	background-color: #f2f2f2;
+	border: solid 1px;
+	border-color: #cccccc;
+	border-radius: 4px;
+	box-shadow:0 8px 16px 0 #8c8c8c;
+}
+tr{
+	padding-bottom:10px;
+	border-bottom:solid 1px #f9f9f9;
+	
+}
+.tr-last{
+	border-bottom:none; 
+}
