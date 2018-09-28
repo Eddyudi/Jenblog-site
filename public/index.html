@@ -19,7 +19,6 @@
 		<div class="nav-menu">
 			<ul class="w3-navbar" style="height: 30px">
  				<li><a href="/">Home</a></li>
-  				<li><a href="/about">About</a></li>
          <li><a href="/contact">Contact</a></li>
          <li><a href="/login">Login</a></li>
 			 	<li><a href="/signup">Sign-up</a></li>
@@ -242,7 +241,20 @@
 <footer>
 	
 </footer>
+<script src="/socket.io/socket.io.js"></script>
 <script>
+  var socket = io();
+
+  socket.on('connect', () => {
+
+  });
+
+  socket.on('disconnect', () =>{
+
+  });
+</script>
+<script>
+  
 function dropdownbtn() {
     var x = document.getElementById("btn");
     if (x.className.indexOf("w3-show") == -1) {
